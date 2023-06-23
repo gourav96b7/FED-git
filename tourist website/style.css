@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  nav a {
+    padding: 10px;
+  }
+  
+  #history,
+  #festivals,
+  #tourist {
+    width: 70%;
+    margin: auto;
+  }
+  
+  article {
+    text-align: justify;
+  }
+  
+  #video {
+    height: 500px;
+    width: 60%;
+    float: right;
+    border: 1px solid black;
+  }
+  
+  #videoframe a {
+    margin: 10px;
+  }

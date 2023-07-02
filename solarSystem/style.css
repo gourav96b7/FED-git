@@ -3,6 +3,12 @@ body {
   background-color: #121215;
 }
 
+h1 {
+  text-align: center;
+  font-size: 2em;
+  color: cyan;
+}
+
 .solar-system {
   position: relative;
   width: 800px;
@@ -182,6 +188,10 @@ body {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.img, #moon, #earth {
+  animation: 6s linear infinite;
 }
 
 .mercury-spin {
